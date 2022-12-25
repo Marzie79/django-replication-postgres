@@ -9,13 +9,13 @@ After running docker correctly create project's database and user so you should 
 ```
 psql -h 127.0.0.1 -U postgres -p 5432
 ```
-Terminal ask you postgres password and after passing password, you should create database and user:
+Terminal ask you postgres password and after passing password, you should create a database and a user for the app:
 ```
 create database djnago_cqrs_db;
 create user djnago_cqrs_role with encrypted password '123456789';
 alter database name owner to djnago_cqrs_role;
 ```
-Now you have database and you can run the app:
+Now you have a database and you can run the app:
 ```
 python3 -m venv env
 source env/bin/activate
