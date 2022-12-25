@@ -1,4 +1,4 @@
-# This ia a very simple project for using replication postgresql.
+# This is a very simple project for using replication postgresql.
 ## I used master for writing operations and using one of replica randomely for reading part.
 
 For using this project, you should set database at first:
